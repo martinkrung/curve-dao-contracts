@@ -71,6 +71,16 @@ brownie test tests/unitary
 brownie test tests/integration
 ```
 
+
+### use environment variables for api keys
+
+activate 
+
+```bash
+source .env
+```
+see .env-sample
+
 ## Deployment
 
 See the [deployment documentation](scripts/deployment/README.md) for detailed information on how to deploy Curve DAO.
